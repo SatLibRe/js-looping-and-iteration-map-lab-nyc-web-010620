@@ -6,10 +6,11 @@ function lowerCaseDrivers(drivers){
   })
 }
 
-function nameToAttributes(drivers){
-  return drivers.map(function (el){
-    return Object.assign({}, drivers, {firstName: drivers})
-  })
-}
+function nameToAttributes(drivers) {
+  return drivers.map(function(driver) {
+    const fName = driver.split(' ')[0];
+    const lName = driver.split(' ')[1];
 
-return Object.assign({}, eng, { equipment: 'Laptop' });
+    return { firstName: fName, lastName: lName };
+  });
+}
