@@ -2,6 +2,6 @@
 
 function lowerCaseDrivers(drivers){
   return drivers.map(function (el){
-    el.toLowerCase()
+    return el.toLowerCase()
   })
 }
