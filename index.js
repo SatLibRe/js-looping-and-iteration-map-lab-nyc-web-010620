@@ -8,6 +8,8 @@ function lowerCaseDrivers(drivers){
 
 function nameToAttributes(drivers){
   return drivers.map(function (el){
-    return 
+    return Object.assign({}, drivers, {firstName: drivers})
   })
 }
+
+return Object.assign({}, eng, { equipment: 'Laptop' });
