@@ -6,4 +6,6 @@ function lowerCaseDrivers(drivers){
   })
 }
 
-function
+function nameToAttributes(drivers){
+  
+}
