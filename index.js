@@ -20,7 +20,7 @@ const lNameDrivers = splitNameDrivers.map(function(el){
 })
 
   return drivers.map(function (el){
-    return Object.assign({}, drivers, {firstName: drivers})
+    return Object.assign({}, el, {firstName: drivers})
   })
 }
 
